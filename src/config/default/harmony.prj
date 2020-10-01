@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+  <Configurator>
+    <Name dnOrder="0" value="default"/>
+    <Processor dnOrder="1" value="PIC32MX270F256B"/>
+    <Harmony dnOrder="2" path="../Harmony3"/>
+    <Folder_Name dnOrder="3" value=""/>
+    <Settings dnOrder="4">
+      <Setting dnOrder="0" key="CMSISPath" value="./dev_packs/arm/CMSIS/5.7.0"/>
+      <Setting dnOrder="1" key="DFPPath" value="./dev_packs/Microchip/PIC32MX_DFP/1.4.241/atdf/PIC32MX270F256B.atdf"/>
+      <Setting dnOrder="2" key="FORCE_OPTIMIZATION" value="false"/>
+      <Setting dnOrder="3" key="GENERATE_BACKUP" value="true"/>
+      <Setting dnOrder="4" key="MERGE_STRATEGY" value="USER_ALL"/>
+      <Setting dnOrder="5" key="PackageFilter" value="core_apps_pic32mx;csp;csp_apps_pic32mx;core;quick_docs;bsp;usb;"/>
+      <Setting dnOrder="6" key="TRUSTZONE" value="false"/>
+    </Settings>
+  </Configurator>
+</Configuration>
